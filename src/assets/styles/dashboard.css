@@ -41,11 +41,17 @@ figure {
   top: 14.6rem;
   left: 8.5rem;
   padding: 0 0 0 0;
+  max-width: 100%;
+}
+
+.ellipse-img{
+  max-width: 100%;
 }
 
 .flex-row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
 }
 
 .align-left {
@@ -54,16 +60,17 @@ figure {
 
 .summary {
   font-family: 'Hornbill Personal Use', sans-serif;
-  gap: 4rem;
+  gap: 5rem;
   text-align: start;
   margin-top: 5rem;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 80px 0px 62px;
 }
 
 .summary h1 {
   font-size: 40px;
   font-weight: 100;
   line-height: .02px;
+  font-size: clamp(16px, 4vw, 6rem);
 }
 
 .summary p {
@@ -97,6 +104,7 @@ figure {
   font-family: 'Aeonik', sans-serif;
   color: #292929;
   background-color: inherit;
+  margin-inline-end: -44px;
 }
 
 .btn-2 {
@@ -158,7 +166,7 @@ figure {
   padding: 24px 16px 24px 16px;
   border: #EFEFEF 2px solid;
   border-radius: 8px;
-  width: 410.67px;
+  width: 372.67px;
   height: 153.61px;
   justify-content: space-between;
 }
@@ -204,13 +212,13 @@ figure {
   max-width: 575px;
   border: #EFEFEF 2px solid;
   border-radius: 8dvh;
-  height: 249px;
+  min-height: 249px;
   padding: 10px;
   border-radius: 8px;
 }
 
 .chart {
-  max-width: 551px;
+  max-width: 95%;
   height: 148px;
   border-radius: 4px;
 }
@@ -230,7 +238,7 @@ figure {
 }
 
 .d-2 {
-  gap: 16px;
+  gap: 26px;
 }
 
 .c-1 {
@@ -263,6 +271,7 @@ figure {
 .grid-1 {
   border: #EFEFEF 2px solid;
   border-radius: 8px;
+  max-width: 1079.33px;
 }
 
 .grid-item {
@@ -310,6 +319,7 @@ figure {
   padding: 8px 16px 8px 16px;
   line-height: .4px;
   gap: 16px;
+  max-width: 1079.33px;
 }
 
 .tag {
