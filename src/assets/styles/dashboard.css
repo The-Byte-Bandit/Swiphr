@@ -1,18 +1,19 @@
 @font-face {
   font-family: 'Hornbill Personal Use';
-  src: url('../fonts/hornbill-personal-use.regular.otf') format('opentype'),
+  src: url('../fonts/hornbill-personal-use.regular.otf') format('opentype');
+  font-display:swap;
 }
 
 @font-face {
   font-family: 'Aeonik';
-  ;
-  src: url('../fonts/AeonikTRIAL-Regular.otf') format('opentype')
+  src: url('../fonts/AeonikTRIAL-Regular.otf') format('opentype');
+  font-display:swap;
 }
 
 @font-face {
   font-family: 'Aeonik-Bold';
-  ;
-  src: url('../fonts/AeonikTRIAL-Bold.otf') format('opentype')
+  src: url('../fonts/AeonikTRIAL-Bold.otf') format('opentype');
+  font-display:swap;
 }
 
 figure {
@@ -32,7 +33,7 @@ figure {
 }
 
 .banner-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .ellipse {
@@ -52,7 +53,7 @@ figure {
 }
 
 .summary {
-  font-family: Aeonik, sans-serif;
+  font-family: 'Hornbill Personal Use', sans-serif;
   gap: 4rem;
   text-align: start;
   margin-top: 5rem;
@@ -78,7 +79,7 @@ figure {
 }
 
 .btn {
-  width: 124px;
+  max-width: 124px;
   height: 46px;
   padding: 12px 24px 12px 24px;
   border-radius: 99px;
@@ -93,13 +94,13 @@ figure {
 }
 
 .btn-1 {
-  font-family: Aeonik, sans-serif;
+  font-family: 'Aeonik', sans-serif;
   color: #292929;
   background-color: inherit;
 }
 
 .btn-2 {
-  font-family: Aeonik, sans-serif;
+  font-family: 'Aeonik', sans-serif;
   color: #FFFFFF;
   background-color: #8113DD;
 }
@@ -121,7 +122,7 @@ figure {
 }
 
 .d-1 {
-  font-family: Aeonik, sans-serif;
+  font-family: 'Aeonik', sans-serif;
   margin-bottom: 3rem;
   gap: 24px;
 }
@@ -129,7 +130,7 @@ figure {
 .c-1-span {
   position: relative;
   top: 16px;
-  width: 7.26px;
+  max-width: 7.26px;
   height: 8px;
   right: 3px;
   border-radius: 83px;
@@ -153,7 +154,7 @@ figure {
 }
 
 .card {
-  font-family: Aeonik, sans-serif;
+  font-family: 'Aeonik', sans-serif;
   padding: 24px 16px 24px 16px;
   border: #EFEFEF 2px solid;
   border-radius: 8px;
@@ -179,7 +180,7 @@ figure {
   padding: 4px 8px 4px 8px;
   align-items: center;
   background-color: #CFFE98;
-  width: 54px;
+  max-width: 54px;
   height: 14px;
   font-size: 10px;
   border-radius: 99px;
@@ -192,15 +193,15 @@ figure {
   padding: 4px 8px 4px 8px;
   align-items: center;
   background: #FFCCA7;
-  width: 54px;
+  max-width: 54px;
   height: 14px;
   font-size: 10px;
   border-radius: 99px;
 }
 
 .card-2 {
-  font-family: Aeonik, sans-serif;
-  width: 575px;
+  font-family: 'Aeonik', sans-serif;
+  max-width: 575px;
   border: #EFEFEF 2px solid;
   border-radius: 8dvh;
   height: 249px;
@@ -209,7 +210,7 @@ figure {
 }
 
 .chart {
-  width: 551px;
+  max-width: 551px;
   height: 148px;
   border-radius: 4px;
 }
@@ -271,13 +272,13 @@ figure {
   text-align: left;
   margin: 0;
   padding: 0;
-  width: 170px;
+  max-width: 170px;
   align-items: center;
 }
 
 .grid-item span {
   display: grid;
-  width: 100px;
+  max-width: 100px;
   height: 25px;
   justify-content: center;
   align-content: center;
@@ -312,7 +313,7 @@ figure {
 }
 
 .tag {
-  width: 389px;
+  max-width: 389px;
   text-align: left;
 }
 
