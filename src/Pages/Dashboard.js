@@ -16,9 +16,9 @@ const Dashboard = ()=>{
         <div className="hero">
             <section className="profile">
                 <div className="banner"> 
-                    <img className="banner-img" src={banner} alt="Banner"/>
+                    <img loading = 'lazy' className="banner-img" src={banner} alt="Banner"/>
                 <div className="ellipse">
-                        <img className="ellipse-img" src={Elipse} alt="Ellipse"/>
+                        <img loading = 'lazy' className="ellipse-img" src={Elipse} alt="Ellipse"/>
                     </div>
                 </div>
                 <div className="summary flex-row">
@@ -39,27 +39,27 @@ const Dashboard = ()=>{
             <div className="flex-row d-1">
                 <div className="card flex-row">
                     <div className="card-child-1 align-left">
-                    <img src={star}/>
+                    <img loading = 'lazy' src={star} alt="star"/>
                     <p>Total Sales</p>
                     <h1>₦134,000</h1>
                     </div>
-                    <span className="card-child-2"><img src={vector} alt="vector"/>56.5%</span>
+                    <span className="card-child-2"><img loading = 'lazy' src={vector} alt="vector"/>56.5%</span>
                 </div>
                 <div className="card flex-row">
                     <div className="card-child-1 align-left">
-                        <img src={star}/>
+                        <img loading = 'lazy' src={star} alt="star"/>
                         <p>Total Orders</p>
                         <h1>120</h1>
                     </div>
-                    <span className="card-child-2"><img src={vector} alt="vector"/>56.5%</span>
+                    <span className="card-child-2"><img loading = 'lazy' src={vector} alt="vector"/>56.5%</span>
                 </div>
                 <div className="card flex-row">
                     <div className="card-child-1 align-left">
-                        <img src={star}/>
+                        <img loading = 'lazy' src={star} alt="star"/>
                         <p>Total Vectors</p>
                         <h1>54</h1>
                     </div>
-                    <span className="card-child-3"><img src={vector2} alt="vector"/>56.5%</span>
+                    <span className="card-child-3"><img loading = 'lazy' src={vector2} alt="vector"/>56.5%</span>
                 </div>
                 </div>
                 <div className="d-2 flex-row">
@@ -78,7 +78,7 @@ const Dashboard = ()=>{
                                 </span>
                             </div>
                         </div>
-                        <img src= {chart} className="chart"/>
+                        <img loading = 'lazy' src= {chart} alt='chart' className="chart"/>
                     </div>
                     <div className="card-2 sub-card">
                         <div className=" c-1 flex-row">
@@ -92,22 +92,22 @@ const Dashboard = ()=>{
                         </div>
                         <div className="product flex-row">
                         <figure>
-                            <img src= {product2} className="product-img" alt="product img"/>
+                            <img loading = 'lazy' src= {product2} className="product-img" alt="product img"/>
                             <figcaption>23% increase</figcaption>
                         </figure>
                             
                         <figure>
-                            <img src= {product1} className="product-img" alt="product img"/>
+                            <img loading = 'lazy' src= {product1} className="product-img" alt="product img"/>
                             <figcaption>23% increase</figcaption>
                         </figure>
 
                         <figure>
-                            <img src= {product3} className="product-img" alt="product img"/>
+                            <img loading = 'lazy' src= {product3} className="product-img" alt="product img"/>
                             <figcaption>23% increase</figcaption>
                         </figure>
 
                         <figure>
-                            <img src= {product4} className="product-img" alt="product img"/>
+                            <img loading = 'lazy' src= {product4} className="product-img" alt="product img"/>
                             <figcaption>23% increase</figcaption>
                         </figure>
                         </div>

@@ -1,91 +1,91 @@
 @font-face {
-    font-family :'Aeonik';;
-    src: url('../fonts/AeonikTRIAL-Regular.otf') format('opentype')
+  font-family: 'Aeonik';
+  ;
+  src: url('../fonts/AeonikTRIAL-Regular.otf') format('opentype')
 }
 
-
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    align-items: center;
-    padding:24px 80px 24px 80px;
-    border-bottom: #EFEFEF 2px solid;
-    font-weight: 400;
-    font-family: 'Aeonik',sans-serif;
-    letter-spacing: -0.41px;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  align-items: center;
+  padding: 24px 80px 24px 80px;
+  border-bottom: #EFEFEF 2px solid;
+  font-weight: 400;
+  font-family: 'Aeonik', sans-serif;
+  letter-spacing: -0.41px;
 }
 
-.down{
-    width: 7px;
-    height: 6px;
+.down {
+  width: 7px;
+  height: 6px;
 }
 
-.u-n-li{
-    font-size: 10px;
-    position: absolute;
-    top: 38px;
-    background: #B4F328;
-    width: 16px;
-height: 14px;
-padding: 2px;
-border-radius: 99px;   
-
+.u-n-li {
+  font-size: 10px;
+  position: absolute;
+  top: 38px;
+  background: #B4F328;
+  width: 16px;
+  height: 14px;
+  padding: 2px;
+  border-radius: 99px;
 }
 
-.pages ul{
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 20px;
-}
-.pages li{
-    padding: 8px 16px 8px 16px;
+.pages ul {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
-.pages ul :nth-child(2){
-    width: 111px;
-height: 38px;
-padding: 8px 16px 8px 16px;
-gap: 10px;
-border-radius: 99px;
-color: #fff;
-background: #8113DD;
-font-weight: 500;
-line-height: 22px;
-font-size: 16px;
-letter-spacing: -0.41px;
+.pages li {
+  padding: 8px 16px 8px 16px;
 }
 
-.utilities ul{
-    display: flex;
-    flex-direction: row;
-    gap: 27px;
+.pages ul :nth-child(2) {
+  width: 111px;
+  height: 38px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 99px;
+  color: #fff;
+  background: #8113DD;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  letter-spacing: -0.41px;
 }
 
-.u-span{
-    background: #D9ADFF;
-    width: 24px;
-    height: 24px;
-    border-radius: 14px;
+.utilities ul {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
 }
 
-.u-li{
-    display: flex;
-    gap: 8px;
-    justify-content: space-evenly;
+.u-span {
+  background: #D9ADFF;
+  width: 24px;
+  height: 24px;
+  border-radius: 14px;
 }
 
-.u-li img{
-    position: absolute;
-    top: 52px;
-    right: 37px;
+.u-li {
+  display: flex;
+  gap: 8px;
+  justify-content: space-evenly;
 }
 
-.utilities li{
-    text-wrap: nowrap;
+.u-li img {
+  position: absolute;
+  top: 52px;
+  right: 37px;
+}
+
+.utilities li {
+  text-wrap: nowrap;
 }
