@@ -26,9 +26,6 @@ const Dashboard = ()=>{
                 <h1>Adam-son Store</h1>
                     <p>Another way to improve the readability of a website or app is to use clear and concise navigation. This helps to make it easy for you to find the information or features that you are looking for. It also helps to prevent you from becoming lost or overwhelmed.</p>
                 </div>
-                <div>
-
-                </div>
                 <button className="btn btn-1 nowrap">Edit Storefront</button>
                 <button className="btn btn-2 nowrap">Add product</button>
                 </div>
@@ -114,12 +111,12 @@ const Dashboard = ()=>{
                     </div>
                 </div>
             </section>
-            <section className="last-section">
+            <section className="last-section flex">
                 <div className="tag">
                     <h3>Recent Orders</h3>
                     <p>Here are the most recent financial transaction</p>
                 </div>
-                <div className="grid-1 grid">
+                <div className="grid-1 grid table">
                     <div className="table-header grid nowrap">
                         <div class="grid-item-1 grid-item">Product Name</div>
                         <div class="grid-item">Order Number</div>
@@ -139,7 +136,7 @@ const Dashboard = ()=>{
                         <div class="grid-item">#1234567</div>
                         <div class="grid-item">12 - April - 2023</div>
                         <div class="grid-item">N10,000</div>
-                        <div class="grid-item end"><span className="span-1">Completed</span></div>
+                        <div class="grid-item"><span className="span-1">Completed</span></div>
                     </div>
                     <div className="item-2 grid">
                     <div class="grid-item grid-item-1">
@@ -156,7 +153,7 @@ const Dashboard = ()=>{
                     </div>
                     <div class="grid-item">12 - April - 2023</div>
                     <div class="grid-item">N10,000</div>
-                    <div class="grid-item end"><span className="span-2">Pending</span></div>
+                    <div class="grid-item"><span className="span-2">Pending</span></div>
                     </div>
                     </div>
                     

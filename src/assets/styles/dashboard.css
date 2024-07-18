@@ -116,6 +116,9 @@ figure {
 .overview {
   margin: 0 3rem 0 3rem;
   gap: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
 }
 
 .overview p {
@@ -133,6 +136,9 @@ figure {
   font-family: 'Aeonik', sans-serif;
   margin-bottom: 3rem;
   gap: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex: 1 1 0%;
 }
 
 .c-1-span {
@@ -166,9 +172,12 @@ figure {
   padding: 24px 16px 24px 16px;
   border: #EFEFEF 2px solid;
   border-radius: 8px;
-  width: 372.67px;
+  max-width: 500px;
   height: 153.61px;
+  gap: 16px;
   justify-content: space-between;
+  display: flex;
+  flex: 1 1 0%;
 }
 
 .card-child-1 {
@@ -209,12 +218,14 @@ figure {
 
 .card-2 {
   font-family: 'Aeonik', sans-serif;
-  max-width: 575px;
   border: #EFEFEF 2px solid;
-  border-radius: 8dvh;
+  border-radius: 8px;
   min-height: 249px;
   padding: 10px;
-  border-radius: 8px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
 }
 
 .chart {
@@ -238,7 +249,11 @@ figure {
 }
 
 .d-2 {
-  gap: 26px;
+  margin-bottom: 3rem;
+  gap: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex: 1 1 0%;
 }
 
 .c-1 {
@@ -247,11 +262,13 @@ figure {
 
 .product {
   margin-top: 25px;
-  padding-left: 13px;
   color: #989898;
   font-size: 12px;
   text-align: left;
   gap: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex: 1 1 0%;
 }
 
 .span-div {
@@ -300,6 +317,14 @@ figure {
   border: #EFEFEF 2px solid;
   border-radius: 8px;
   padding: 24px;
+  flex-direction: column;
+}
+
+.table{
+  max-width: 1298px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
 }
 
 .table-header {
@@ -319,7 +344,7 @@ figure {
   padding: 8px 16px 8px 16px;
   line-height: .4px;
   gap: 16px;
-  max-width: 1079.33px;
+  max-width: 100%;
 }
 
 .tag {
